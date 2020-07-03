@@ -22,8 +22,6 @@ cap = cv2.VideoCapture('Video-Prueba-1.mp4')
 FPS = cap.get(cv2.CAP_PROP_FPS)
 hasFrame, frame = cap.read()
 ct = CentroidTracker()
-#(H, W) = (None, None)
-
 frame_width = frame.shape[1]#int(cap.get(3))
 frame_height = frame.shape[0]#int(cap.get(4))
 video_writer = cv2.VideoWriter('Salida.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), cap.get(cv2.CAP_PROP_FPS), (frame_width, frame_height))
@@ -98,7 +96,7 @@ while cv2.waitKey(1) < 0:
         # object on the output frame
         text = "Id{}".format(objectID)
         cv2.putText(frame, text, (centroid[0] - 20, centroid[1] - 20),
-			cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 255, 0), 1, lineType=cv2.LINE_AA)
+			cv2.FONT_HERSHEY_COMPLEX, 0.4, (0, 255, 0), 1, lineType=cv2.LINE_AA)
         cv2.circle(frame, (centroid[0], centroid[1]), 4, (0, 255, 0), -1)
 
 	  # show the output frame
