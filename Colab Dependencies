@@ -10,3 +10,6 @@ print(torch.__version__, torch.cuda.is_available())
 
 #To run it on Colab
 !python read_frames_fast.py --video /content/Prueba.mp4 --output /content/resultado.avi 
+
+#Video Prueba.mp4
+https://drive.google.com/file/d/1VjVH2xvGIomHqfo4sJvuvuPplRvFuYqi/view?usp=sharing
