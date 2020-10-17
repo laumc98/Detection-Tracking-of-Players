@@ -7,3 +7,6 @@ print(torch.__version__, torch.cuda.is_available())
 !gcc --version
 
 !pip install detectron2==0.1.3 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/torch1.5/index.html
+
+#To run in on Colab
+!python read_frames_fast.py --video /content/Prueba.mp4 --output /content/resultado.avi 
