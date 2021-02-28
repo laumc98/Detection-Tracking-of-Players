@@ -5,3 +5,8 @@ This is an ongoing project that aims to automatically track players in a sports 
 
 # Detectron2 repository
 https://github.com/facebookresearch/detectron2
+
+# Results 
+Los siguientes links corresponden a los resultados finales obtenidos para la automatización del Test de Leger.
+
+1.  https://youtu.be/UwYjoG6zTZ4
