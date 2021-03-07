@@ -129,7 +129,7 @@ def analisis_posiciones_1(lista_corredores,Lista_ides,n_etapa,n_tramo):
                             list_estados[Lista_ides[i]][tramo_analizado] = 1  # [[0,0,0],[1,0,0],[0,0,0]]
                             tramos_rechazados = sum(list_estados[Lista_ides[i]])
                             registrar ='Etapa '+ n_etapa +' - '+ ' Tramo ' + str(n_tramo) + '  El corredor  no aprobo\n'
-                            if tramos_rechazados >=3:
+                            if tramos_rechazados >=2:
                                 print('El corredor ha sido decalificado: ',i)
                                 Descali ='-------------------El corredor fue descalificado en la etapa '+ n_etapa + ' y tramo ' + str(n_tramo) + '-----------------\n'
                                 VO_MAX = round(((5.857*Velocidades[int(n_etapa)-1])-19.458),2)
