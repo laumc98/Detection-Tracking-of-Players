@@ -12,4 +12,4 @@ https://github.com/facebookresearch/detectron2
 Los siguientes links corresponden a los resultados finales obtenidos para la automatización del Test de Leger.
 
 1.  Ejecución del Test de Leger - https://www.youtube.com/watch?v=Zbry9LlEOms
-2.  Resultado 1 del Programa de Automatización para el Test de Leger - https://youtu.be/UwYjoG6zTZ4
+2.  Resultado del Programa de Automatización para el Test de Leger - https://youtu.be/UwYjoG6zTZ4
